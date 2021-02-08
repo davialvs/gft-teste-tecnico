@@ -1,6 +1,6 @@
 package projeto01;
 
-public class Retangulo {
+public class Retangulo implements AreaCalculavel{
 
 	public int altura;
 	public int largura;

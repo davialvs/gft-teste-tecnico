@@ -1,9 +1,8 @@
 package projeto01;
 
-public class Circulo {
+public class Circulo implements AreaCalculavel{
 	
-	public double pi = 3.14;
+	public double pi = Math.PI;
 	public double raio;
 	
-
 }

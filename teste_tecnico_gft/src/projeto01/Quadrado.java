@@ -1,6 +1,6 @@
 package projeto01;
 
-public class Quadrado {
+public class Quadrado implements AreaCalculavel{
 	
 	public int lado1;
 	public int lado2;
@@ -9,5 +9,6 @@ public class Quadrado {
 		this.lado1 = lado1;
 		this.lado2 = lado2;
 	}
+	
 	
 }
