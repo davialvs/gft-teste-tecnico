@@ -9,6 +9,11 @@ public class Retangulo implements AreaCalculavel{
 		this.altura = altura;
 		this.largura = largura;
 	}
+
+	@Override
+	public Double calcular() {
+		return (double) largura*altura;
+	}
 	
 }
 
