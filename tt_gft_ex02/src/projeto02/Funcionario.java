@@ -30,6 +30,10 @@ public class Funcionario extends Pessoa {
 	public void setSalario_total(double salario_total) {
 		this.salario_total = salario_total;
 	}
-	
+
+	//metodo
+	public double salarioAumento() {
+		return salario_inicial*0.12;
+	}
 
 }
